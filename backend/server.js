@@ -47,13 +47,14 @@ transporter.verify((error, success) => {
 
 app.use(
   cors({
-    origin: "https://rkphysioclinic-web.onrender.com",
+    origin: "https://rkphysioclinic-web-x31b.vercel.app",
+    methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   }),
 );
 
 const db = mysql.createConnection({
-  host: "https://rkphysioclinic-web.onrender.com",
+  host: "https://rkphysioclinic-web-x31b.vercel.app",
   user: "root",
   password: "Lokesh#098",
   database: "food_subscription",
