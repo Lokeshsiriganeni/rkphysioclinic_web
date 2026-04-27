@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { lazy } from "react";
 import Home from "./pages/Home";
 import Admin_user_input from "./pages/Admin_user_input";
-import Plans from "./pages/plans";
+import Plans from "./pages/Plans";
 import { Suspense, useEffect, useState } from "react";
 import { createContext } from "react";
 import ProtectedRoute from "./components/ProtectedRoute";
