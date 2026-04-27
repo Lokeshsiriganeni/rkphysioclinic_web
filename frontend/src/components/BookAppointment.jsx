@@ -18,7 +18,7 @@ export default function BookAppointment() {
 
   const bookAppointment = async () => {
     try {
-      await axios.post("http://localhost:5000/api/appointment", form);
+      await axios.post("https://rkphysioclinic-web.onrender.com/api/appointment", form);
       alert("Appointment booked successfully!");
     } catch (err) {
       alert("Something went wrong");
