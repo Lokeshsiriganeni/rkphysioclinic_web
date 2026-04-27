@@ -53,7 +53,7 @@ app.use(
 );
 
 const db = mysql.createConnection({
-  host: "localhost",
+  host: "https://rkphysioclinic-web.onrender.com",
   user: "root",
   password: "Lokesh#098",
   database: "food_subscription",
