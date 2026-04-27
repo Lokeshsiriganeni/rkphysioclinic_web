@@ -47,7 +47,7 @@ transporter.verify((error, success) => {
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://rkphysioclinic-web.onrender.com",
     credentials: true,
   }),
 );
