@@ -423,8 +423,8 @@ export default function App() {
                 <h3 className="text-2xl font-bold mb-4">Gepl Capital</h3>
 
                 <p className="text-slate-400 mb-6">
-                  Internal support ticketing platform with CRUD, JWT
-                  authentication, RBAC and dashboard systems.
+                Contributed to the development of the official GEPL Capital website, focusing on performance optimization, responsive design, and SEO improvements to enhance user experience and search engine visibility.
+
                 </p>
 
                 <div className="flex flex-wrap gap-2 text-sm text-teal-400">
